@@ -1,0 +1,121 @@
+body{
+    background-color: rgb(224, 192, 153);
+}
+#one{
+    background-color:#db8d40;
+    border-radius: 100px;
+    margin: 20px;
+}
+#two{
+    background-color:#EEE7DA;
+    border-radius: 100px;
+    margin: 20px;
+}
+#three{
+    background-color: #AFC8AD;
+    border-radius: 100px;
+    margin: 20px;
+}
+#four{
+    background-color: #88AB8E;
+    border-radius: 100px;
+    margin: 20px;
+}
+
+.flex-box {
+    display: flex;
+    margin: 40px;
+    font-size: 20px;
+    gap: 100px;
+    font-weight: bolder;
+}
+section a{
+    justify-content:end;
+}
+.image {
+        height: 350px; 
+        width: 520px;
+        margin: 16px;
+        margin: 40px;
+
+}
+#one >img {
+    margin-top:40px ;
+    padding: 40px;
+}
+
+.cards{
+    display: flex;
+}
+.card {
+    width: 200px;
+    height: 320px;
+    background: #db7726;
+    margin: 5px;
+    border: 1px;
+    border-radius: 10px;
+}
+.card img{
+    border-radius: 10px;
+}
+.card div{
+    margin: 15px;
+}
+.card div{
+    margin: 5px;
+}
+.card div>p{
+    margin: 5px;
+}
+
+.div-background {
+    background-image: url(./background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 200px;
+    position: relative;
+}
+.footer-menu {
+    display: flex;
+    justify-content:center;
+    gap: 100px;
+    font-size: xx-large;
+    font-weight: bolder;
+    padding: 20px 20px;
+    border-radius: 5px;
+    color: #EEE7DA;
+}
+header h1{
+color: orange;
+font-style: oblique;
+font-size: xx-large;
+}
+#types h2{
+    text-align: center;
+    font-size:xx-large;
+}
+.top-menu {
+    text-decoration: none;
+    display: flex;
+    justify-content:center;
+    gap: 100px;
+    font-size: large;
+    font-weight: bolder;
+    padding: 20px 20px;
+    color: #073712;
+    transition: 0.3s ease-in-out;
+    
+}
+.card:hover {
+    transform: scale(1.2);
+    border: 2px solid #000000;
+}
+
+#page-title {
+    font-size: 100px;
+    color: #02220f;
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
